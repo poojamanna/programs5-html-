@@ -1,0 +1,74 @@
+.s1
+{
+border:2px solid Tomato;
+text-align: center;
+color: blue;
+}
+.s2
+{
+text-align: center;
+color: blue;
+}
+.p {
+  margin: 25px 50px 75px 100px;
+}
+.d {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+.t
+{
+ height: 200px;
+  width: 50%;
+  background-color: powderblue;
+}
+body {
+  color: navy;
+  font-size: large;
+}
+/* unvisited link */
+a:link {
+  color: maroon;
+   text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+   text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+   text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+   text-decoration: underline;
+}
+form {
+  border: 5px solid #f1f1f1;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+}
+img.panda {
+
+  width: 10%;
+  border-radius: 10%;
+}
+.f{
+	border: 5px solid #f1f1f1;
+	text-align: center;
+}

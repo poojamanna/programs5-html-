@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My first java script</title>
+	<script type="text/javascript">
+		document.write("hello world")
+	</script>
+</head>
+<body>
+<p>adding two numbers</p>
+<input type="text" id="x">
+<p id="sum"></p>
+<button type="button" onclick="ifelse()">Show sum</button>
+<script type="text/javascript">
+	function ifelse() {
+		// body...
+		var x=parseInt(document.getElementById("x").value);
+		var y=2;
+		var z=x+y;
+		document.getElementById("sum").innerHTML=z;
+	}
+</script>
+
+</body>
+</html>

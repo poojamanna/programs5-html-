@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+<script type="text/javascript">
+	var foods = new Array("pasta","burger","ice cream","pizza","chocolate");
+	Array.prototype.displayItems=function (){
+		// body...
+		for (var i = 0; i <this.length; i++) {
+			document.write(this[i]+"<br />");
+		}
+	}
+	document.write("foods array<br />");
+	foods.displayItems();
+	document.write("<br />The number of items in foods array are" + foods.length+"<br />");
+	document.write("<br /> the sorted foods array <br />");
+	foods.sort();
+	foods.displayItems();
+	document.write("<br /> the reversed foods array<br />")
+	foods.reverse();
+	foods.displayItems();
+	document.write("<br /> the foods array after removing the last item<br />")
+	foods.pop();
+	foods.displayItems();
+	document.write("<br /> the foods array after push<br />")
+	foods.push("biryani");
+	foods.displayItems();
+	
+	
+
+</script>
+</body>
+</html>

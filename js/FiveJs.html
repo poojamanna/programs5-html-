@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Objects!!1</title>
+</head>
+<body>
+<script type="text/javascript">
+	var person = new Object();
+	person.fname = "Pooja";
+	person.lname= "Manna R";
+	person.salary1 = 25000;
+	person.salary2= 21000;
+	person.salary3 = 27000;
+	person.calculateTotal = function()
+	{
+		return (person.salary1 + person.salary2 + person.salary3);
+	};
+	person.displayInfo = function()
+	{
+		document.write("Person fname: " +person.fname+ " " +person.lname+ "</br >");
+			var sum = person.calculateTotal();
+			document.write("Total salary: "+sum);
+			
+	};
+	person.displayInfo();
+
+</script>
+</body>
+</html>

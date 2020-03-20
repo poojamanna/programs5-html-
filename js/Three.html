@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My second java script</title>
+</head>
+<body>
+	<p id="p1">this is placeholder one</p>
+	<p id="p2" name="pp1">this is placeholder two</p>
+	<p id="p3">this is to show the list of countries</p>
+	<button type="button" onclick="clickme()">Click me</button><br><br><hr>
+	<button type="button" onclick="prompt1()">click here to enter number</button><br><br><hr>
+	<button type="button" onclick="forloop1()">click to check array values</button>
+	<script type="text/javascript">
+	function clickme() {
+		// body...
+		
+		document.getElementById("p1").innerHTML='this is poo calling';
+				document.getElementById("p2").innerHTML='this is tri calling';
+
+	}
+	function prompt1()
+	{
+		p=prompt("please enter a number")
+		if(p=="08")
+		{
+			alert("you entered 8")
+		}
+		else
+		{
+			alert("you did not enter 8")
+		}
+	}
+	function forloop1()
+	{
+		var countries=["India","USA","Dubai","France","UK","Australia"];
+		var text="";
+		var i;
+		for(i=0;i<countries.length;i++)
+		{
+			text+=countries[i] +"<br>"
+		}
+		document.getElementById("p3").innerHTML=text;
+	}
+</script>
+
+
+</body>
+</html>
